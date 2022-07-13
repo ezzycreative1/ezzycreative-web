@@ -1,3 +1,5 @@
+<!-- Banner Start -->
+<?= $this->section('banner') ?>
 <section class="section banner">
 	<div class="container">
 		<div class="row">
@@ -15,3 +17,5 @@
 		</div>
 	</div>
 </section>
+<!-- Banner End -->
+<?= $this->endSection() ?>
